@@ -1,0 +1,69 @@
+
+
+.country_card {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.country_flag {
+  width: 140px;
+  height: 140px;
+
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.card_info span {
+  width: 150px;
+  max-width: 150px;
+  text-align: center;
+}
+
+.card_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+  top: -30px;
+
+  background-color: white;
+  padding: 5px;
+  border: 1px solid dimgray;
+  border-radius: 10px;
+  font-size: 13px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+  animation-name: country_info_start_animation;
+  animation-duration: 0.5s;
+}
+
+.country_name {
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+}
+
+.country_population {
+  font-size: 10px;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: dimgray;
+}
+
+.nav_link:hover .country_name {
+    color: blue;
+}
+

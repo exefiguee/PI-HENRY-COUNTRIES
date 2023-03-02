@@ -1,0 +1,22 @@
+.button{
+    text-decoration: none;
+    border: 1px solid rgb(55, 38, 154);
+    background-color: rgb(157, 148, 148);
+    padding: 10px;
+    color: rgb(139, 80, 13);
+    font-weight: bold;
+
+    height: max-content;
+    margin-left: 6px;
+
+}
+
+
+
+.button:disabled{
+    background-color: transparent;
+    color: silver;
+    border: 1px solid silver;
+    box-shadow: none;
+    cursor: not-allowed;
+}

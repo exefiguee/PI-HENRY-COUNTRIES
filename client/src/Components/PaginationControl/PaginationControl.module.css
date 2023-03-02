@@ -1,0 +1,26 @@
+.pagination_control {
+    display: flex;
+    width: min-content;
+}
+
+.visible_page_indices {
+    width: max-content;
+}
+
+.page_control_button,
+.page_index {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    min-width: 25px;
+    min-height: 25px;
+    border-radius: 50%;
+    margin: 0px 3px;
+    background-color: rgb(210, 210, 210);
+    border: 1px solid dimgray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

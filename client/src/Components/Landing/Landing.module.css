@@ -1,0 +1,37 @@
+.landing_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    color: dimgray;
+    background-size: cover;
+    background-image: url("https://i.ibb.co/DG9W2d2/countries-copia.png");
+}
+
+.back{
+    background-color: rgb(166, 29, 29);
+    border-radius: 10%;
+    width: 20%;
+    height: 25%;
+  }
+  .colorasd{
+    color: coral;
+  }
+ 
+
+.home_link{
+    text-decoration: none;
+    color: dimgray;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 25px;
+    background-color: silver;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: 1px solid dimgray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
